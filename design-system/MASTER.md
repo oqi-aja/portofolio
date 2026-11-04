@@ -6,11 +6,10 @@
 - **Tone**: Professional developer dashboard, precise, clean, and accessible.
 
 ## 2. Color Palette & Background
-- **Base Background**: Deep midnight navy (`#030712`).
-- **Ambient Lighting**: 
-  - Emerald glow (`#10b981` / `rgba(16, 185, 129, 0.15)`)
-  - Cyan glow (`#06b6d4` / `rgba(6, 182, 212, 0.15)`)
-  - Indigo/Violet accent (`#6366f1` / `rgba(99, 102, 241, 0.12)`)
+- **Base Background**: Full-viewport glassy mesh gradient (`#020617` base with multi-stop radial glows in emerald, cyan, and indigo).
+- **Ambient Lighting & Refraction**: 
+  - Translucent refractive orbs with `backdrop-blur-3xl`
+  - Subtle grid mesh overlay (`rgba(255, 255, 255, 0.02)`)
 - **Text Hierarchy**:
   - Primary: Pure White (`#ffffff`)
   - Secondary: Slate 300 (`#cbd5e1`)
