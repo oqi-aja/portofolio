@@ -17,17 +17,17 @@
 - **Accents**: Emerald-400 (`#34d399`), Cyan-400 (`#22d3ee`).
 
 ## 3. Glass Material Specifications
-- **Primary Glass (Main Panels)**:
-  - Background: `linear-gradient(135deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.03) 100%)`
-  - Backdrop Blur: `backdrop-filter: blur(32px) saturate(210%)`
-  - Border: `1px solid rgba(255, 255, 255, 0.24)` with bright top specular `border-top: 1px solid rgba(255, 255, 255, 0.4)`
-  - Shadow: `inset 0 1px 0 0 rgba(255, 255, 255, 0.45), inset 0 -1px 0 0 rgba(255, 255, 255, 0.05), 0 25px 50px rgba(0, 0, 0, 0.5)`
+- **Primary Glass (Main Panels & Hero)**:
+  - Background: `rgba(255, 255, 255, 0.035)`
+  - Backdrop Blur: `backdrop-filter: blur(5px) saturate(150%)`
+  - Border: `1px solid rgba(255, 255, 255, 0.16)` with top highlight `border-top: 1px solid rgba(255, 255, 255, 0.25)`
+  - Shadow: `inset 0 1px 0 rgba(255, 255, 255, 0.18), 0 8px 30px rgba(0, 0, 0, 0.08)`
 - **Secondary Glass (Cards & Sub-panels)**:
-  - Background: `linear-gradient(135deg, rgba(255, 255, 255, 0.09) 0%, rgba(255, 255, 255, 0.02) 100%)`
-  - Backdrop Blur: `backdrop-filter: blur(24px) saturate(190%)`
-  - Border: `1px solid rgba(255, 255, 255, 0.16)`
+  - Background: `rgba(255, 255, 255, 0.025)`
+  - Backdrop Blur: `backdrop-filter: blur(4px) saturate(140%)`
+  - Border: `1px solid rgba(255, 255, 255, 0.12)`
 - **Floating Glass (Navigation & Badges)**:
-  - Background: `rgba(11, 15, 25, 0.75)` with `backdrop-filter: blur(20px)`
+  - Background: `rgba(15, 23, 42, 0.25)` with `backdrop-filter: blur(6px)`
 
 ## 4. Typography
 - **Headings & Body**: Plus Jakarta Sans (`font-sans`).
